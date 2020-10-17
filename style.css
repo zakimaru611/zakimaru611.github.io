@@ -1,0 +1,536 @@
+@charset "utf-8";
+ 
+body{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family:  YuGothic , sans-serif;
+    text-decoration: none;
+    letter-spacing: -0.03em;
+} 
+body a{
+    color: teal;
+}
+input{
+    outline: none;
+    border: none;
+}
+.navi{
+    background-image: url(img/first.jpg);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+}
+.pin{
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.moji{
+    width: 300px;
+}
+.text{
+    color: white;
+    font-weight: bold;
+    letter-spacing: -0.2rem;
+    margin: 250px 0 0 30px;
+    font-size: 35px;
+}
+.group{
+    display: flex;
+    justify-content: left;
+    color: white;
+    margin: 20px 0 30px 30px;
+    padding-bottom: 30px;
+}
+.one{
+    width: 240px;
+    font-weight: bold;
+}
+.two{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.form{
+    border: 1px solid #EBEBEB;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px 0 5px 0;
+    justify-content: space-between;
+}
+.button{
+    position: relative;
+    font-size: 14px;
+    letter-spacing: -0.05rem;
+    margin-right: 10px;
+}
+.email{
+    width: 40%;
+}
+.plane{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.bun{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 30px;
+}
+.bun p{
+    margin: 0;
+}
+.bun a{
+    color: teal;
+}
+.mdish{
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 30px;
+}
+.mdish h3{
+    font-size: 25px;
+}
+.pic{
+    margin-top: 30px;
+}
+.pic p{
+    margin-top: 10px;
+}
+.three{
+    padding-left: 55px;
+    padding-right: 55px;
+    letter-spacing: -0.1rem;
+    padding-top: 50px;
+}
+.trans{
+    display: flex;
+}
+.trans a{
+    font-size: 18px;
+}
+.aa{
+    margin-right: 20px;
+}
+.four{
+    margin-top: 50px;
+}
+.four img{
+    height: auto;
+}
+.green{
+    background-color: #10758C;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-top: 20px;
+}
+.green .aa{
+    color: white;
+    font-size: 18px;
+}
+.four2{
+    margin-top: 20px;
+}
+.three .aa{
+    font-size: 18px;
+}
+.another{
+    margin-top: 0;
+}
+.fox{
+    width: 80%;
+}
+.border2{
+    border-bottom: 1px solid #EBEBEB;
+}
+.five{
+    background-color: #E2E5E6;
+    padding: 60px 65px;
+    margin-top: 20px;
+}
+.name{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.five p:nth-child(3){
+    margin-bottom: 0;
+}
+.top{
+    margin-top: 20px;
+}
+.six{
+    margin-top: 20px;
+    background-color: #E2E5E6;
+    padding-bottom: 50px;
+}
+.work{
+    text-align: center;
+    font-size: 26px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+.form2{
+    background-color: white;
+    margin-bottom: 40px;
+}
+.naka{
+    text-align: center;
+    border-top: 1px solid #7F7981;
+    padding-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.time{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.time2{
+    margin-bottom: 10px;
+}
+.footer{
+    margin-left: 25px;
+    margin-right: 25px;
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.footer p{
+    margin-bottom: 10px;
+}
+.child{
+    display: flex;
+    margin-right: 20px;
+}
+.last{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.bunbun{
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+    height: 16px;
+}
+.boss{
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+.boss p{
+    margin-bottom: 0px;
+}
+.lg{
+    display: block;
+}
+.navxx{
+    display: none;
+}
+.special{
+    display: none;
+}
+.spec{
+    display: none;
+}
+br{
+    display: none;
+}
+span{
+    display: none;
+}
+.icons{
+    display: none;
+}
+
+
+
+@media (min-width: 1439px){
+.lg{
+    color: white;
+    display: flex;
+}
+.navxx{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 880px;
+}
+.navxx p{
+    margin-left: 20px;
+}
+.set{
+    margin-left: 5px !important;
+}
+.navi{
+    background-position: 50% 60%;
+    height: 860px;
+}
+.moji{
+    margin-left: 15%;
+    width: 650px;
+}
+.text{
+    font-size: 55px;
+}
+.group{
+    margin-left: 17%;
+}
+.one p{
+    font-size: 20px;
+}
+.one{
+    width: 30%;
+}
+.two{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.plane{
+    position: absolute;
+    top: 500px;
+    left: 245px;
+    color: white;
+    font-size: 20px;
+}
+.form{
+    position: absolute;
+    top: 540px;
+    left: 245px;
+    width: 450px;
+}
+.bun{
+    position: absolute;
+    top: 580px;
+    left: 225px;
+    color: white;
+    border: none;
+    display: flex;
+    font-size: 20px;
+}
+.bun a{
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.mdish{
+    margin-top: 100px;
+    border: none;
+}
+.mdish h3{
+    font-size: 50px;
+}
+.container{
+    display: flex;
+}
+.con{
+    font-size: 20px;
+}
+.pic p{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.monstar{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.seven{
+    background-color: #EBEBEB;
+    padding: 300px 150px;
+    margin-right: 20px;
+}
+.four{
+    margin-top: 0;
+}
+.four img{
+    height: 870px;
+    object-fit: cover;
+    object-position: left;
+    width: auto;
+}
+.seven h3{
+    font-size: 46px;
+    width: 410px;
+    margin: 0 auto;
+}
+.seven p{
+    font-size: 20px;
+    width: 400px;
+    margin: 20px auto;
+}
+.seven .aa{
+    font-size: 20px;
+}
+.giant{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.green{
+   padding-bottom: 40px;
+   margin-top: 0;
+}
+.four2{
+    margin-right: 5px;
+}
+.eight{
+    padding: 180px 100px;
+}
+.eight h3{
+    font-size: 46px;
+}
+.four2 img{
+    object-position: center;
+    object-fit: cover;
+    width: auto;
+    height: 870px;
+
+}
+.eight{
+    padding: 270px 150px;
+    margin-right: 20px;
+}
+.eight p{
+    font-size: 20px;
+    width: 400px;
+    margin: 20px auto;
+}
+.sevenstar{
+    margin-top: 20px;
+}
+.four3{
+    margin-top: 20px;
+}
+.border2{
+    border-bottom: none;
+}
+.flex{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #10758C;
+}
+.three3{
+    padding: 40px 0 20px 0;
+    width: 370px;
+}
+.three3 h3{
+    font-size: 32px;
+}
+.three3 p{
+    font-size: 20px;
+}
+.flexflex{
+    display: flex;
+    margin: 100px 150px;
+    height: 650px;
+}
+.five{
+    margin-top: 0;
+    margin-right: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.top img{
+    height: 650px;
+    object-fit: cover;
+    object-position: center;
+}
+.meta{
+    font-size: 28px;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.name{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+.name2{
+    font-size: 20px;
+    margin-left: 45px;
+
+}
+.work{
+    font-size: 45px;
+    padding-top: 50px;
+}
+.special{
+    display: flex;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px 0 10px 140px;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.spec{
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 505px;
+}
+.naka{
+    width: 40%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.fflex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    font-size: 18px;
+    margin: 30px 60px;
+}
+.footer{
+    border-bottom: none;
+}
+br{
+    display: inline;
+}
+.mini{
+    display: flex;
+}
+span{
+    display: inline;
+}
+.big{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 0 100px;
+    border-top: 1px solid #EBEBEB;
+    padding: 10px 0;
+}
+.child p{
+    margin-bottom: 0;
+}
+.boss{
+    margin-left: 0;
+}
+.corecter{
+    display: flex;
+    margin-top: 10px;
+
+}
+.last{
+    margin-top: 10px;
+}
+.icons{
+    display: block;
+    margin-left: 20px;
+}
+}
